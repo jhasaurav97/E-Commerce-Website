@@ -1,0 +1,55 @@
+/****** Products Page Styling Start ******/
+.all_product{
+    text-align: center;
+}
+
+h1{
+    padding: 8px;
+    text-align: center;
+}
+
+h3{
+    background-color: #ccc;
+}
+
+.card{
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-bottom: 10px !important;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img{
+    height: 250px;
+}
+
+.card-body{
+    background-color: rgba(212, 209, 209, 0.459);
+}
+
+.card-body p{
+    padding: 8px;
+    line-height: 1.2;
+    font-size: 14px;
+    height: 60px;
+    font-family: "PT Serif", serif;
+}
+
+.card-body button{
+    border: none;
+    background-color: #ffb700;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 20px;  
+}
+
+.card-btn{
+    font-weight: 600;   
+    color: #000;
+    text-decoration: none;   
+}
+/****** Products Page Styling End ******/

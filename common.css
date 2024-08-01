@@ -1,0 +1,34 @@
+.contact{
+    padding: 10px;
+}
+
+h1{
+    color: black;
+}
+
+.header{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+div label{
+    color: black;
+    font-weight: bold;
+}
+
+/****** Cart Page Styling  ******/
+.cart-img{
+    width: 155px;
+    height: 186px;
+    background-color: #f3f3f3;
+}
+
+.cart-btn{
+    background-color: #ccc;
+}
+
+h3{
+    background-color: #ccc;
+    color: black;
+}

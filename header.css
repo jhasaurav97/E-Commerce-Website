@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/****** Header Page Styling Start ******/
+.header-top{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.brand{
+    text-decoration: none;
+    color: #ffb700;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    font-family: "PT Serif Caption", serif;
+    font-weight: bold;
+}
+.logo-icon{
+    display: none;
+}
+
+#inputForm{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+}
+
+.inputBox{
+    padding: 5px 8px;
+    width: 80%;
+    border: none;
+    border-bottom-left-radius: 8px;
+}
+.btn-box{
+    border: none;
+    width: 20%;
+    border-top-right-radius: 8px;
+    font-weight: 600;
+    background-color: #ffb700;
+    font-size: 16px;
+}
+
+.cart-icon a{
+    text-decoration: none;
+}
+
+.btn-cart{
+    border: none;
+    font-size: 15px;
+    padding: 5px 12px;
+    background-color: #ffb700;
+    border-radius: 5px;
+}
+.icon{
+    color: #ffb700;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.header-bottom{
+    padding: 2px;
+}
+
+@media (max-width : 768px) {
+    .brand_Logo a{
+        font-size: 1.4rem;
+    }
+
+    #inputForm{
+        width: 250px;
+    }
+    .inputBox{
+       font-size: 14px;
+    }
+    .btn-box{
+        font-size: 14px;
+    }
+
+    .btn-cart{
+        font-size: 14px;
+    }
+    
+}
+
+@media (max-width: 568px) {
+    .header-top{
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+    
+    .brand_Logo{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .brand{
+        padding-left: 0;
+    }
+    .logo-icon{
+        display: block;
+        padding: 0px 10px;
+        border: 3px solid #ccc;
+        border-radius: 5px;
+    }
+    .logo-icon i{
+        
+        color: lightgray;
+    }
+
+    #inputForm{
+        width: 200px;
+    }
+    .inputBox{
+        font-size: 10px;
+     }
+     .btn-box{
+         font-size: 10px;
+     }
+
+    .cart-icon{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/****** Header Page Styling End ******/
